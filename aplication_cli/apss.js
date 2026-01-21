@@ -1,9 +1,8 @@
-import { getdata } from "./api.js";
+import { getData } from "./api.js";
 const argv = process.argv.slice(2);
 
 
 if (argv[0] == "github-activity") {
-    getdata(argv[1]);
-
+    getData(argv[1]);
 
 }
