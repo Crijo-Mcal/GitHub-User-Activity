@@ -3,6 +3,7 @@ const argv = process.argv.slice(2);
 
 
 if (argv[0] == "github-activity") {
-    getdata();
+    getdata(argv[1]);
+
 
 }
